@@ -59,7 +59,9 @@ public class SystemManager {
 
 	}
 
-	public void deleteRemoteSystem(String userId, String remoteId) throws SystemManagerException {		
+	public void deleteRemoteSystem(String userId, String remoteId) throws SystemManagerException {
+
+
 		final User auth = new User("1", "Antonio", "Perez", "Madrid", new ArrayList<Object>());
 		boolean isDeleted = true;
 		try {
